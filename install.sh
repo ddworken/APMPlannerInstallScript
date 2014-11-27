@@ -1,4 +1,5 @@
 #!/bin/sh
+#Copyright (c) 2014 David Dworken
 cd ~/ #Change Directory to the home directory. 
 mkdir apmInstaller #MaKe a new DIRectory called apminstaller, to store all temp files in. 
 cd apmInstaller #Change Directory to the ampinstaller directory
