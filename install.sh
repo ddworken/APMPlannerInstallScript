@@ -8,6 +8,7 @@ apt-get -y install libopenscenegraph-dev git qt5-qmake qt5-default qtscript5-dev
 dpkg -i apmplanner.deb #Install the APM Planner deb we just downloaded. 
 cd .. #Cd to the above directory
 rm -r apmInstaller #Delete the apmInstaller folder (no longer needed)
+ln -s /usr/bin/apmplanner2 ~/Desktop/APM\ Planner #Sym link /usr/bin/apmplanner2 to the desktop. This will add APM Planner to the desktop. 
 #Commented out because it is part of the code copy and pasted into the terminal. 
   #wget https://github.com/ddworken/APMPlannerInstallScript/blob/master/install.sh  -Download this script from github
   #sudo chmod +x install.sh                                                         -Enable execution of this script
